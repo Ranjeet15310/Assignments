@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-22T03:26:12 IST" name="Default suite" finished-at="2023-08-22T03:26:32 IST" duration-ms="20626">
+    <groups>
+    </groups>
+    <test started-at="2023-08-22T03:26:12 IST" name="Default test" finished-at="2023-08-22T03:26:32 IST" duration-ms="20626">
+      <class name="testCase.LoginWithUnlockImg">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.LoginWithUnlockImg@443118b0]" started-at="2023-08-22T03:26:12 IST" name="setup" finished-at="2023-08-22T03:26:21 IST" duration-ms="9394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClickOnChatMeButton()[pri:1, instance:testCase.LoginWithUnlockImg@443118b0]" started-at="2023-08-22T03:26:21 IST" name="ClickOnChatMeButton" finished-at="2023-08-22T03:26:21 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnChatMeButton -->
+        <test-method signature="ClickOnLetsStartBtn()[pri:2, instance:testCase.LoginWithUnlockImg@443118b0]" started-at="2023-08-22T03:26:21 IST" name="ClickOnLetsStartBtn" finished-at="2023-08-22T03:26:22 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnLetsStartBtn -->
+        <test-method signature="ClickOnMobileNumberInputBox()[pri:3, instance:testCase.LoginWithUnlockImg@443118b0]" started-at="2023-08-22T03:26:22 IST" name="ClickOnMobileNumberInputBox" finished-at="2023-08-22T03:26:22 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnMobileNumberInputBox -->
+        <test-method signature="EnterTheMobNumber()[pri:4, instance:testCase.LoginWithUnlockImg@443118b0]" started-at="2023-08-22T03:26:22 IST" name="EnterTheMobNumber" finished-at="2023-08-22T03:26:22 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterTheMobNumber -->
+        <test-method signature="ClickOnLoginContinueButton()[pri:5, instance:testCase.LoginWithUnlockImg@443118b0]" started-at="2023-08-22T03:26:22 IST" name="ClickOnLoginContinueButton" finished-at="2023-08-22T03:26:22 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnLoginContinueButton -->
+        <test-method signature="EntetTheOTP()[pri:6, instance:testCase.LoginWithUnlockImg@443118b0]" started-at="2023-08-22T03:26:22 IST" name="EntetTheOTP" finished-at="2023-08-22T03:26:24 IST" duration-ms="1718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EntetTheOTP -->
+        <test-method signature="ClickOnUnlockImage()[pri:7, instance:testCase.LoginWithUnlockImg@443118b0]" started-at="2023-08-22T03:26:24 IST" name="ClickOnUnlockImage" finished-at="2023-08-22T03:26:32 IST" duration-ms="8768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnUnlockImage -->
+      </class> <!-- testCase.LoginWithUnlockImg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
