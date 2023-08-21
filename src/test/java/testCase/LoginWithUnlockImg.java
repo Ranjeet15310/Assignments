@@ -25,7 +25,7 @@ public class LoginWithUnlockImg extends BaseClass{
 		hp.ClickMobNumberInputBox();
 	}
 	@Test(priority=4)
-	public void EnterTheMobNumber() throws InterruptedException
+	public void EnterTheMobNumber()
 	{
 	    hp.EnterMobNuber("1111111111");
 	}
