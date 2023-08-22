@@ -51,7 +51,7 @@ public class HomePage extends BasePage {
 		ContinueBtn.click();
 	}
 	
-	public void EnterOTP() throws InterruptedException
+	public void EnterOTP()
 	{
 		driver.findElement(By.xpath("//input[@aria-label='Please enter verification code. Digit 1']")).sendKeys("1");
 		driver.findElement(By.xpath("//input[@aria-label='Digit 2']")).sendKeys("2");

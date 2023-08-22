@@ -13,21 +13,14 @@ public class BaseClass {
    @BeforeClass
 	public void setup()		
 	{
-		//rb = ResourceBundle.getBundle("config");// Load config.properties
-				  
-		//launch right browser based on parameter
-		
-	    driver = new ChromeDriver();
-					
+	    driver = new ChromeDriver();	
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
-		driver.get("https://develop-v2.superlink.io/userthree"); // get url from config.properties file
+		driver.get("https://develop-v2.superlink.io/userthree");
 		driver.manage().window().maximize();
 	}
- //Step8 groups added
-  /* @AfterClass
+   @AfterClass
 	public void teadDown() {	
 		driver.quit();
-	}*/
+	}
 	
 }

@@ -35,13 +35,14 @@ public class LoginWithUnlockImg extends BaseClass{
 		hp.ClickContinueBtn();;
 	}
 	@Test(priority=6)
-	public void EntetTheOTP() throws InterruptedException
+	public void EntetTheOTP()
 	{
 		hp.EnterOTP();
 	}
 	@Test(priority=7)
-	public void ClickOnUnlockImage()
+	public void ClickOnUnlockImage() throws InterruptedException
 	{
+		Thread.sleep(8000);
 		hp.ClickUnlockImg();	
 	}
 	
